@@ -9,7 +9,7 @@ This project implements a local Retrieval-Augmented Generation (RAG) system usin
 * **Framework:** LangChain
 * **Vector Store:** ChromaDB (Local storage)
 * **Embedding Model:** HuggingFace `sentence-transformers/all-MiniLM-L6-v2` (Runs 100% locally)
-* **LLM Engine:** OpenAI `gpt-4o`
+* **LLM Engine:** ollama llama3
 * **Environment Configuration:** Python Dotenv
 
 ---
