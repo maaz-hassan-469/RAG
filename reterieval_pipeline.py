@@ -44,7 +44,7 @@ for i,doc in enumerate(relevant_docs,1):
 
 # # please provide a clear,helpful answer using only the information from these documents.If the answer is not contained within the documents say "i dotn have enough information to answer the question" and do not make up an answer
 # # """
-
+#we will shift this model into ollama later on
 # model=ChatOpenAI(model="gpt-4o")
 # #here we are creating a list of message to pass the model
 # #system message is used to set the behacior of the model
