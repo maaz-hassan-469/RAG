@@ -22,8 +22,8 @@ def load_documents(docs_path="docs"):  # Giving default value to docs_path
     # Loading documents from the docs folder using DirectoryLoader
     loader = DirectoryLoader(
         docs_path,
-        glob="*.csv",  # Glob pattern to match all text files in the directory
-        loader_cls=CSVLoader,  # Loader class to use for loading the documents
+        glob="*.txt",  # Glob pattern to match all text files in the directory
+        loader_cls=TextLoader,  # Loader class to use for loading the documents
         loader_kwargs={"encoding": "utf-8"},  # Forces Python to read files in UTF-8
     )
 
